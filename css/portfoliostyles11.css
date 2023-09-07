@@ -1,0 +1,688 @@
+/*styles.css - July, 17th, 2022 - Jacobo Ruiz student #672328472 */
+
+body
+    {
+        max-width:100%;
+        background-color:rgb(232,232,232);
+        font-family:Futura,Calibri,sans-serif;
+    }
+
+#outerwrapper
+    {
+        width:100%;
+        margin: 0 auto 0 auto;
+        background-color:white;
+        /*background-color:rgb(232,232,232);*/
+    }
+
+nav
+    {
+       width:100%;
+       height:6.2em;
+       background-color:white;
+       /*background-color:rgb(232,232,232); */
+       
+    }
+
+#logo
+    {
+        width:8.8%;
+        height:100%;
+        background-color:white;
+        float:left;
+        /*border-width:2px;*/
+    }
+
+#img
+    {
+        max-width:100%;
+        /*margin-top:0.75em;*/
+        margin-left:0em;
+        display:block;
+    }
+
+#boxJacob
+    {
+        width:36.2%;
+        height:100%;
+        background-color:white;
+        float:left;
+    }
+
+#nameJacob
+    {
+        color:rgb(164,164,164); 
+        font-size:3em;
+        text-shadow: 0.1em 0.1em rgb(232,232,232);
+        padding-left:0%;
+    }
+
+#topmenu
+    {
+        width:55%;
+        height:100%;
+        background-color:white;
+        float:left;
+        font-family:Futura,Calibri,sans-serif;
+    }
+
+.home /*home div*/
+    {
+        width:25%;
+        height:100px;
+        background-color:white;
+        float:left;
+    }
+
+.text-menu /* top right hand menu*/
+    {
+        color: rgb(19,122,61);
+        padding-top: 10%;
+        text-align:center;
+    }
+  
+#hoverblue:hover
+    {
+        color:rgb(20,83,165);
+    }
+
+#bannertext
+    {
+        width:22.5%;
+        height:279px;
+        background-color:rgb(232,232,232);
+        float:left;
+    }
+#banner
+ {
+    width:75.5%;
+    height:279px;
+    background-color:rgb(232,232,232);
+    float:left;
+ }
+
+#img-banner
+    {
+        margin-left: 0%;
+        margin-right:0%;
+    }
+
+header
+    {
+        width:100%;
+        height:55px;
+        background-color:rgb(16,16,16);
+        clear:both;
+    }
+
+.skills /*skills div*/
+    {
+        width:25%;
+        height:55px;
+        background-color:rgb(16,16,16);
+        float:left;
+    }
+
+.text-services /* top middle menu*/
+    {
+        color: rgb(232,232,232);
+        text-align:center;
+        font-size:1.2em;
+    }
+
+
+#hovergray:hover
+    {
+        color:rgb(164,164,164);
+    }
+
+main
+    {
+        width:100%;
+        height:300px;
+        background-color:white;
+    }
+
+/*main li
+    {
+        list-style-type:none;
+    }*/
+
+#left
+    {
+        width:25%;
+        height:100%;
+        background-color:white;
+        float:left;
+    }
+
+#content
+    {
+        width:50%;
+        height:100%;
+        background-color:white;
+        float:left;
+        color:rgb(32,32,32);
+    }
+
+.hover:hover
+    {
+        color: rgb(19,122,61);
+    }
+
+#right
+    {
+        width:25%;
+        height:100%;
+        background-color:white;
+        float:left;
+    }
+
+
+#quote
+    {
+        width:100%;
+        height:400px;
+        background-color:rgb(232,232,232);
+        /*(background-color: blue;*/
+    }
+
+#form-section
+    {
+        width:35%;
+        height:100%;
+        background-color:rgb(232,232,232);
+        /*background-color: yellow;*/
+        float:left;
+    }
+
+#name
+    {
+        margin-top:2em;
+    }
+
+#quote_js
+    {
+        width:30%;
+        height:100%;
+        background-color:rgb(232,232,232);
+        /*background-color:red;*/
+        float:left;
+        text-align:center;
+    }
+
+#map
+    {
+        width:35%;
+        height:100%;
+        background-color:rgb(232,232,232);
+        /*background-color: greenyellow;*/
+        float:left;
+        text-align:center;
+        /*font-size:2em;*/
+    }
+
+
+#location
+    {
+        /*font-size:2em;*/
+        padding-top:2em;
+    }
+
+footer
+    {
+        width:100%;
+        height:500px;
+        background-color:rgb(72,72,72);
+        color:rgb(164,164,164);
+    }
+
+#copyright
+    {
+        width:30%;
+        height:100%;
+        background-color:rgb(72,72,72);
+        float:left;
+        color:rgb(164,164,164);
+    }
+
+#products
+    {
+        width:30%;
+        height:100%;
+        background-color:rgb(72,72,72);
+        float:left;
+        color:rgb(164,164,164);
+    }
+
+#contactme
+    {
+        width:40%;
+        height:100%;
+        background-color:rgb(72,72,72);
+        float:left;
+        color:rgb(164,164,164);
+    }
+
+
+#footer2
+    {
+       text-align:left;
+       padding-left:5%;
+       padding-top:5%;
+    }
+
+#contactme-text
+    {
+        text-align:left;
+        padding-left:0%;
+    }
+
+.audio 
+    {
+        text-align: center;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border: 0.1em solid rgb(164,164,164);
+        height: auto;
+        max-width: 100%;
+    }
+
+#call-img
+    {
+        clear:both;
+    }
+
+#callcenter
+    {
+        max-width:100%;
+    }
+
+#usecases-img
+    {
+        float:left;
+        width:40%;
+        background-color:white;
+    }
+#usecases
+    {
+        float:left;
+        width:60%;
+        background-color:white;
+    }
+#mecapumble
+    {
+        width:50%;
+        height:100%;
+        Background-color:white;
+        float:left;
+    }
+#uberpong
+    {
+        width:50%;
+        height:100%;
+        Background-color:white;
+        float:left;
+    }
+#antibacterial
+    {
+        width:100%;
+        height:100%;
+        Background-color:white;
+        float:left;
+    }
+#background-img
+    {
+        width:100%;
+        height:100%;
+        color:white;
+    }
+#bi
+    {
+        width:100%;
+        height:100%;
+        Background-color:rgb(232,232,232);
+        float:left;
+    }
+#scrum
+    {
+        width:100%;
+        height:100%;
+        Background-color:white;
+        float:left;
+    }
+
+@media screen and (min-width:769px)
+    {
+        .desktop
+            {
+                display:inline;
+            }
+        .mobile
+            {
+                display:none;
+            }
+        figure
+            {
+                width:100%;
+                height:279px;
+                background-color:rgb(232,232,232);
+            }
+    
+        figcaption h3
+            {
+                color:rgb(20,83,165);
+                Text-align:left;
+                padding-left:3em;
+            }
+        .img-2companies
+            {
+                width:30%;
+                height:57px;
+                float:left;
+                padding-left:2em;
+            }
+    
+        .img-3company
+            {
+                width:30%;
+                height:37px;
+                clear:both;
+                padding-left:6em;
+                padding-top:3%;
+            }
+
+        article h1
+            {
+                display:inline;
+                padding-left:1em;
+            }
+        
+        table
+            {
+                width:70%;
+                margin-top: 1em;
+                color:rgb(164,164,164);
+            }
+
+        td
+            {
+                border:0.1em solid rgb(232,232,232);
+                padding-left:2em;
+                text-align:center;
+                vertical-align:center;
+                color:#000000;
+            }
+        
+        form
+            {
+                padding-top:2%;
+                padding-left:25%;
+            }
+    }/*media query configuration for desktop*/
+
+@media screen and (max-width:600px)
+    {
+        .desktop
+            {
+                display:none;
+            }
+        .mobile
+            {
+                display:inline;
+                text-align:left;
+                padding-left:5%;
+            }
+        #logo
+            {
+                width:auto;
+            }
+        /*#img
+            {
+                display:block;
+            }*/
+
+        #topmenu
+            {
+                clear:both;
+                width:100%;
+            }
+ 
+        #boxJacob
+            {
+                clear:both;
+                width:100%;
+                text-align:center;
+            }
+            
+        #bannertext
+            {
+                display:none;
+            }
+        #banner
+            {
+                display:none;
+            }
+        h3
+            {
+                font-size:smaller;
+            } 
+        .text-services
+            {
+                font-size:smaller;
+            }
+        #map
+            {
+                display:none;
+            }
+        #form-section
+            {
+                clear:both;
+                width:100%;
+            } 
+        figure
+            {
+                display:none;
+            }
+        figcaption h3
+            {
+                display:none;
+            }
+        .img-2companies
+            {
+                display:none;
+            }
+        .img-3company
+            {
+                display:none;
+            } 
+        /*section
+            {
+                display:none;
+            }*/
+        article
+            {
+                display:none;
+            }
+        #left
+            {
+                display:none;
+            }
+        #right
+            {
+                display:none;
+            }
+        #products
+            {
+                clear:both;
+                Width:100%;
+            }
+        #copyright
+            {
+                clear:both;
+                width:100%;
+            }
+        #contactme
+            {
+                clear:both;
+                width:100%;
+            }
+        #call-img
+            {
+                display:none;
+            }
+        #mecapumble
+            {
+                clear:both;
+            }
+        #uberpong
+            {
+                clear:both;
+            }
+        #antibacterial
+            {
+                clear:both;
+            }
+        #content
+            {
+                width:100%;
+            }
+        }/*media query configuration for mobile*/
+
+@media screen and (min-width:601px) and (max-width:768px)
+    {
+        .desktop
+            {
+                display:inline;
+            }
+        .mobile
+            {
+                display:none;
+            }
+        #logo
+            {
+                width:auto;
+            }
+       /* #img
+            {
+                display:block;
+            }*/
+
+        h3
+            {
+                font-size:smaller;
+            } 
+        #boxJacob
+            {
+                clear:both;
+                width:100%;
+                text-align:center;
+            }
+        #topmenu
+            {
+                clear:both;
+                width:100%;
+            }
+        #bannertext
+            {
+                display:none;
+            }
+        #banner
+            {
+                display:none;
+            }
+        .text-services
+            {
+                font-size:smaller;
+            }
+        #map
+            {
+                display:none;
+            }  
+        #form-section
+            {
+                clear:both;
+                width:100%;
+            }
+        figure
+            {
+                display:inline;
+            }
+        figcaption h3
+            {
+                display:inline;
+            }
+        .img-2companies
+            {
+                display:none;
+            }
+        .img-3company
+            {
+                display:inline;
+            }
+        /*section
+            {
+                display:none;
+            }*/
+        article
+            {
+                display:none;
+            }
+        #left
+            {
+                display:none;
+            }
+        #right
+            {
+                display:none;
+            } 
+        #products
+            {
+                clear:both;
+                Width:100%;
+            }
+        #copyright
+            {
+                clear:both;
+                width:100%;
+            }
+        #contactme
+            {
+                clear:both;
+                width:100%;
+            }
+        #call-img
+            {
+                display:none;
+            }
+        #mecapumble
+            {
+                clear:both;
+            }
+        #uberpong
+            {
+                clear:both;
+            }
+        #antibacterial
+            {
+                clear:both;
+            }
+        #content
+            {
+                width:100%;
+            }
+        
+    }/*media-screen tablet configuration disapears part of this section*/
+    
+@media :print
+    {
+        body
+            {
+                width:100%;
+                color: #000000;
+                background-color: #FFFFFF;
+            }
+    }/*Printer configuration black-white*/
+
+
+
